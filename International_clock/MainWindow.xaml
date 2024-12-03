@@ -1,0 +1,21 @@
+﻿<Window x:Class="International_clock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:International_clock"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="600" Loaded="Window_Loaded">
+    <Grid>
+        <StackPanel>
+            <Label Height="40" Margin="5" Content="Москва:" FontWeight="Bold" FontSize="19"/>
+            <TextBlock x:Name="_MoscowTime" Height="59" Margin="10"  TextAlignment="Center" FontWeight="ExtraBold" FontSize="40"/>
+            <Label Height="35" Margin="5" Content="Нью-Йорк:" FontWeight="Bold" FontSize="19" />
+            <TextBlock x:Name="_NewYTime" Height="60" Margin="10"  TextAlignment="Center" FontWeight="ExtraBold" FontSize="40" />
+            <Label  Height="35" Margin="5" Content="Пекин:" FontWeight="Bold" FontSize="19"/>
+            <TextBlock x:Name="_PekinTime" Height="60" Margin="10"  TextAlignment="Center" FontWeight="ExtraBold" FontSize="40"/>
+
+           
+        </StackPanel>
+    </Grid>
+</Window>
